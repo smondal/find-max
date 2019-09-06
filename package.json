@@ -1,0 +1,33 @@
+{
+ "name": "find-max",
+ "version": "1.0.0",
+ "description": "Find maximum number",
+ "main": "index.js",
+ "repository": "",
+ "engines": {
+  "nodejs": ">=8"
+ },
+ "scripts": {
+  "test": "xo && nyc ava"
+ },
+ "keywords": [
+  "maximum",
+  "maxnumber",
+  "find",
+  "search"
+ ],
+ "author": "Sandip Mondal",
+ "license": "MIT",
+ "devDependencies": {
+  "ava": "^2.3.0",
+  "coveralls": "^3.0.6",
+  "nyc": "^14.1.1",
+  "xo": "^0.24.0"
+ },
+ "nyc": {
+	 "reporter": [
+		 "lcov",
+		 "text"
+	 ]
+ }
+}
