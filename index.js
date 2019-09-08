@@ -1,3 +1,8 @@
+/* eslint no-extend-native: ["error", { "exceptions": ["Array"] }] */
+Array.prototype.flat = function () {
+	return [].concat(...this);
+};
+
 module.exports = (...obj) => {
 	let max;
 	if (obj.flat().length === 0) {
