@@ -4,7 +4,7 @@
 ## Install
 
 ```
-$ npm install find-max
+$ npm install @smondal/find-max
 ```
 
 
