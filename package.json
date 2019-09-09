@@ -1,10 +1,10 @@
 {
- "name": "find-max",
+ "name": "@smondal85/find-max",
  "version": "1.0.0",
  "description": "Find maximum number",
  "license": "MIT",
  "main": "index.js",
- "repository": "@smondal/find-max",
+ "repository": "https://github.com/smondal/find-max",
  "author": {
 	 "name": "Sandip Mondal",
 	 "email": "sandip_mondal85@yahoo.co.in"
