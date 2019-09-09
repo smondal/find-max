@@ -2,8 +2,13 @@
  "name": "find-max",
  "version": "1.0.0",
  "description": "Find maximum number",
+ "license": "MIT",
  "main": "index.js",
- "repository": "",
+ "repository": "https://github.com/smondal/find-max",
+ "author": {
+	 "name": "Sandip Mondal",
+	 "email": "sandip_mondal85@yahoo.co.in"
+ },
  "engines": {
   "nodejs": ">=8"
  },
@@ -16,8 +21,6 @@
   "find",
   "search"
  ],
- "author": "Sandip Mondal",
- "license": "MIT",
  "devDependencies": {
   "ava": "^2.3.0",
   "coveralls": "^3.0.6",
