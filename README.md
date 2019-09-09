@@ -10,7 +10,7 @@ $ npm install find-max
 
 ## Usage
 
-````js
+```js
 const findMax = require('find-max');
 
 var max = findMax(1, 2, 3, 4)  // 4
