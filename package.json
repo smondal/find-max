@@ -1,5 +1,5 @@
 {
- "name": "@sandipm/find-max",
+ "name": "@sandipmo/find-max",
  "version": "1.0.0",
  "description": "Find maximum number",
  "license": "MIT",
@@ -7,7 +7,7 @@
  "repository": "https://github.com/smondal/find-max",
  "author": {
 	 "name": "Sandip Mondal",
-	 "email": "sandip_mondal85@yahoo.co.in"
+	 "email": "sandipmondal85@gmail.com"
  },
  "engines": {
   "nodejs": ">=8"
