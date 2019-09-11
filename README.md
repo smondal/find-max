@@ -4,7 +4,7 @@
 ## Install
 
 ```
-$ npm install @smondal/find-max
+$ npm install @sandipmo/find-max
 ```
 
 
@@ -13,11 +13,17 @@ $ npm install @smondal/find-max
 ```js
 const findMax = require('find-max');
 
+//Handle normal arguments
 var max = findMax(1, 2, 3, 4)  // 4
 
 var max = findMax([1, 2, 3, 4]) //4
 
+//Handle array of array
+var max = findMax([1, 2, 3, 4, [6, 12], [9, 10], [2], 8]) // 12
+
 var max = findMax({1: 2, 2: 4, 4: 5})  //'4'
+
+
 ```
 
 

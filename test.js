@@ -20,3 +20,7 @@ test('object', t => {
 test('array', t => {
 	t.is(findMax([1, 2, 3, 4]), 4);
 });
+
+test('array of array', t => {
+	t.is(findMax([1, 2, 3, 4, [6, 12], [9, 10], [2], 8]), 12);
+});
