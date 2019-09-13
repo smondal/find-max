@@ -1,7 +1,7 @@
 {
  "name": "@sandipmo/find-max",
- "version": "1.0.2",
- "description": "Find maximum number",
+ "version": "1.0.4",
+ "description": "Find maximum number form Array or Object or number of arguments",
  "license": "MIT",
  "main": "index.js",
  "repository": "https://github.com/smondal/find-max",
@@ -18,6 +18,9 @@
  "keywords": [
   "maximum",
   "maxnumber",
+	"max",
+	"findmax",
+	"searchmax",
   "find",
   "search"
  ],

@@ -17,6 +17,10 @@ test('object', t => {
 	t.is(findMax({1: 2, 2: 4, 4: 5}), '4');
 });
 
+test('string key', t => {
+	t.is(findMax({a: 2, b: 4, c: 5}), 'c');
+});
+
 test('array', t => {
 	t.is(findMax([1, 2, 3, 4]), 4);
 });
